@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;    
+}
+
+ul{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+    margin: auto; 
+    flex-direction: column;
+}
+
+.play{
+    width: 300px;
+    height: 100px;
+    justify-content: center;    
+    border-radius: 10px;
+    color: white;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.play:hover{    
+    cursor: pointer;     
+}
+
